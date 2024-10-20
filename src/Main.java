@@ -59,5 +59,32 @@ public class Main {
 //        }
 //        System.out.println(duplicates);
 //    }
+
+//        nums = new ArrayList<>(new HashSet<>(nums)); // ещё варианты из ответов наставника
+//        Collections.sort(nums);
+//        for (int num : nums) {
+//            if (num % 2 == 0) {
+//                System.out.println(num);
+//            }
+//        }
+//
+//
+//        Или так:
+//
+//
+//
+//        Set<Integer> sortedNums = new TreeSet<>(nums);
+//        for (int num : sortedNums) {
+//            if (num % 2 == 0) {
+//                System.out.println(num);
+//            }
+//        }
+//
+//
+//        Тогда если в исходном списке nums будет значение Integer.MIN_VALUE:
+//
+//
+//
+//        private static final List<Integer> nums = new ArrayList<>(List.of(Integer.MIN_VALUE, 1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
     }
 }
